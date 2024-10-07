@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Web Development</title>
+    <link rel="stylesheet" href="style3.css">
+     
+</head>
+<body>
+    <!--Header Section-->
+    <header>
+        <!--navigation menu-->
+        <div class="nav-container">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--Hero Section-->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Advanced Web Development</h1>
+                <button onclick="window.location.href='#portfolio'">Learn More</button>
+            </div>
+        </section> 
+         <!--Portfolio Section-->
+         <section id="portfolio" class="portfolio-section">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="uid1.jpg" alt="Project 1">
+                    <h3>Designing a Web</h3>
+                    <p>This is my first Project.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="uid2.jfif" alt="Project 2">
+                    <h3>Creative Designing</h3>
+                    <p>This is my second Project.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="uid3.jpg" alt="Project 2">
+                    <h3>Appealing Looks</h3>
+                    <p>This is my third Project.</p>
+                </div>
+                
+            </div>
+        </section>
+        <!--Contact Section-->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Connect with me:</p>
+    <a href="https://facebook.com">Facebook</a>
+    <a href="https://twitter.com">Twitter</a>
+    <a href="https://linkedin.com">LinkedIn</a>
+
+    </footer>
+    
+    
+</body>
+</html>
